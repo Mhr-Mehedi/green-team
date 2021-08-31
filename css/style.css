@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+
+}
+
+/* Navber */
+.navbar {
+
+    background: #ffffff;
+
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.navbar .navbar-brand {
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.nav-item {
+    color: #254CAC;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #254CAC;
+
+}
+
+.menu-btn {
+    border: 1px solid;
+    border-color: #ED6D2E;
+    background-color: transparent;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #ED6D2E;
+    border-radius: 35px;
+}
+
+.menu-btn:hover {
+    color: #ffffff;
+    background-color: #ED6D2E;
+
+}
+
+
+/* hero section */
+.hero-section {
+    background: #ffffff;
+    padding-top: 100px;
+
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    height: 100vh;
+}
+.hero-left{
+    padding-right: 0px;
+}
+.hero-left h3 {
+    color: #254CAC;
+    font-size: 34px;
+    line-height: 20px;
+    padding-top: 80px;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.hero-left h1 {
+    font-family: 'Playfair Display', serif;
+    color: #C1D230;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 120%;
+    font-family: 'Secular One', sans-serif;
+}
+
+.hero-left p {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #254CAC;
+}
+
+.hero-left button {
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    background: #ED6D2E;
+    border-radius: 30px;
+}
+
+.hero-right img {
+    width:  659.28px;
+    height:  526.49px;
+}
+.icon-row{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: inherit;
+}
+.icon{
+    padding: 0;
+    text-align: center;
+}
+.icon img{
+    background: linear-gradient(180deg, rgba(173, 221, 242, 0.67) 44.27%, rgba(173, 221, 242, 0) 100%);
+    padding: 10px;
+    filter: drop-shadow(10px 10px 34px rgba(0, 0, 0, 0.1));
+border-radius: 20px;
+    border-radius: 5px;
+}
+.icon-row h5{
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    font-size:18px ;
+    color: #254CAC;
+}
+.icon p{
+    padding: 0px;
+    margin: 0;
+    font-size: 8px;
+    color: #254CAC;
+}
+@media (max-width: 411px) {
+    .hero-left p {     
+        font-size: 12px;
+    }
+}
+@media (max-width: 375px) {
+    .hero-left p {
+        font-size: 10px;
+    }
+}
